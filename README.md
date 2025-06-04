@@ -38,3 +38,6 @@ cd api-spring-boot
 
 # Outra forma
 Pode ser executado através de alguma IDE também, exemplo IntelliJ
+
+### Documentação
+Após rodar o projeto é possível acessar a documentação pelo link: http://localhost:8080/swagger-ui/index.html#/
