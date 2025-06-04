@@ -35,3 +35,6 @@ cd api-spring-boot
 
 # Execute a aplicação
 ./mvnw spring-boot:run
+
+# Outra forma
+Pode ser executado através de alguma IDE também, exemplo IntelliJ
