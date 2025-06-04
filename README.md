@@ -52,3 +52,25 @@ Após rodar o projeto é possível acessar a documentação da API pelo link:
 ```bash
 http://localhost:8080/swagger-ui/index.html
 ```
+
+## 🛠 Decisões técnicas
+
+- **Java + Spring Boot**: framework robusto e amplamente utilizado para desenvolvimento de APIs REST.
+- **Arquitetura RESTful**: para facilitar a integração e o consumo da API.
+- **Persistência em arquivo JSON**: solução simples para armazenamento local sem necessidade de banco de dados.
+- **Scraping com fonte oficial ComprasNet**: coleta dos dados diretamente do site oficial para garantir dados atualizados.
+- **Documentação com Springdoc OpenAPI (Swagger)**: para facilitar o entendimento e teste dos endpoints.
+- **Injeção de dependências e serviços**: separação clara de responsabilidades para facilitar manutenção e testes.
+
+---
+
+## 🧪 Como executar os testes automatizados
+
+1. Para rodar os testes automatizados da aplicação, certifique-se que o Maven está instalado.
+
+2. Execute o comando na raiz do projeto:
+
+```bash
+mvn test
+```
+ou é possível rodar diretamente pela IDE, a exemplo o IntelliJ
