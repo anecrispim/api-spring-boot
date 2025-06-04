@@ -24,20 +24,18 @@ Este projeto é uma API REST desenvolvida em Java com Spring Boot para capturar 
 - Maven
 - Git
 
-### Passos para rodar
-
-# Clone o repositório
+### Clone o repositório
 git clone https://github.com/anecrispim/api-spring-boot.git
 cd api-spring-boot
 
-# Compile o projeto
+### Compile o projeto
 ./mvnw clean install
 
-# Execute a aplicação
+### Execute a aplicação
 ./mvnw spring-boot:run
 
-# Outra forma
+### Outra forma
 Pode ser executado através de alguma IDE também, exemplo IntelliJ
 
-### Documentação da API
+## Documentação da API
 Após rodar o projeto é possível acessar a documentação da API pelo link: http://localhost:8080/swagger-ui/index.html#/
