@@ -2,13 +2,13 @@
 
 Este projeto é uma API REST desenvolvida em Java com Spring Boot para capturar e disponibilizar informações de licitações públicas do site oficial [ComprasNet](http://comprasnet.gov.br/ConsultaLicitacoes/ConsLicitacaoDia.asp).
 
-## Funcionalidades
+## 🧾 Funcionalidades
 
 - Captura licitações públicas e seus respectivos itens via web scraping.
 - Armazena os dados capturados em arquivo JSON local.
 - Disponibiliza os dados por meio de endpoints REST.
   
-## Tecnologias utilizadas
+## 🛠 Tecnologias utilizadas
 
 - Java 17+
 - Spring Boot
@@ -16,7 +16,7 @@ Este projeto é uma API REST desenvolvida em Java com Spring Boot para capturar 
 - Persistência em arquivo JSON
 - Maven
 
-## Como executar localmente
+## 🚀 Como executar localmente
 
 ### Pré-requisitos
 
@@ -25,15 +25,23 @@ Este projeto é uma API REST desenvolvida em Java com Spring Boot para capturar 
 - Git
 
 ### Clone o repositório
-git clone https://github.com/anecrispim/api-spring-boot.git
 
+```bash
+git clone https://github.com/anecrispim/api-spring-boot.git
 cd api-spring-boot
+```
 
 ### Compile o projeto
+
+```bash
 ./mvnw clean install
+```
 
 ### Execute a aplicação
+
+```bash
 ./mvnw spring-boot:run
+```
 
 ### Outra forma
 Pode ser executado através de alguma IDE também, exemplo IntelliJ
